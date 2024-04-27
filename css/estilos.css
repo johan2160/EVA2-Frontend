@@ -1,3 +1,8 @@
+::selection {
+  background-color: #cccfea;
+  color: black;
+}
+
 .custom-bg {
   background: #001220;
 }
@@ -25,4 +30,25 @@ small > a:hover {
   scale: 1.2;
   color: #6d7bfb;
   text-decoration: none;
+}
+
+.txt-responsive {
+  font-size: 1.25rem;
+}
+
+.fs-3 {
+  font-size: 1rem;
+}
+
+/* ============ Media queries ============ */
+@media screen and (max-width: 1200px) {
+  .txt-responsive {
+    font-size: 1.15rem;
+  } 
+}
+
+@media screen and (max-width: 850px) {
+  .txt-responsive {
+    font-size: 1.05rem;
+  } 
 }
