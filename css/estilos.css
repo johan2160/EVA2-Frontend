@@ -3,6 +3,13 @@
   color: black;
 }
 
+.acerca-de {
+  ::selection {
+    background-color: black;
+    color: #cccfea;
+  }
+}
+
 .custom-bg {
   background: #001220;
 }
